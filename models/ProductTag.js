@@ -20,7 +20,7 @@ ProductTag.init(
       references: {
         model: 'product',
         key: 'id',
-        unique: false
+        // unique: false
       }
     },
     // Tag id column
@@ -29,7 +29,7 @@ ProductTag.init(
       references: {
         model: 'tag',
         key: 'id',
-        unique: false
+        // unique: false
       }
     }
   },
